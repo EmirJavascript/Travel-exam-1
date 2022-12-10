@@ -1,0 +1,26 @@
+@import url(css/header.css);
+@import url(css/hero.css);
+@import url(css/subscribe.css);
+@import url(css/footer.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    padding: 0 24px;
+  }
+}
